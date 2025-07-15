@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campus Event Platform - Project Overview</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4285F4;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #1a73e8;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+    ul {
+      margin-left: 1.25rem;
+    }
+    .btn-container {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    a.button {
+      background-color: #1a73e8;
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #155ab6;
+    }
+    footer {
+      text-align: center;
+      margin: 2rem 0 1rem;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      main {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Campus Event Platform - Project Overview
+  </header>
+  <main>
+    <section id="problem-statement">
+      <h2>Problem Statement</h2>
+      <p>
+        On my campus, there are 19 active forums, each organizing various weekly or monthly events. However, there is no centralized platform where forum leads can publish event details. As a result, many students miss out because event information is scattered across WhatsApp groups and social media, which require manual forwarding and often fail to reach everyone.
+      </p>
+    </section>
+
+    <section id="solution-overview">
+      <h2>Solution Overview</h2>
+      <p>
+        I propose a single platform that consolidates all campus events in one place. It offers a real-time event feed categorized by clubs and departments for easy browsing. The platform features a chatbot powered by Google’s Gemini API, which answers students’ questions about upcoming events and offers personalized suggestions. Smart notifications with summarized updates keep students informed without overwhelming them.
+      </p>
+    </section>
+
+    <section id="technologies-used">
+      <h2>Technologies Used</h2>
+      <ul>
+        <li><strong>IDX:</strong> For frontend development and user interface management.</li>
+        <li><strong>Firebase Studio:</strong> For backend services including Firestore real-time database and cloud messaging.</li>
+        <li><strong>Gemini API:</strong> To power the AI chatbot and generate personalized event summaries.</li>
+        <li><strong>Firebase Cloud Messaging:</strong> To send smart, summarized notifications to users.</li>
+      </ul>
+    </section>
+
+    <div class="btn-container">
+      <a href="https://your-project-link.com" target="_blank" class="button" rel="noopener noreferrer">
+        Visit the Application
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name | Campus Event Platform
+  </footer>
+</body>
+</html>
